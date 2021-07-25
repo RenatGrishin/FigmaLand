@@ -1,0 +1,25 @@
+.animShow-downToUp{
+  opacity: 0;
+  transform: translateY(100px);
+}
+.animShow-upToDown{
+  opacity: 0;
+  transform: translateY(-100px);
+}
+.animShow-leftToRight{
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.animShow-rightToLeft{
+  opacity: 0;
+  transform: translateX(100px);
+}
+.animShow-justShow{
+  opacity: 0;
+}
+.animated{
+  opacity: 1;
+  transition: 0.6s;
+  transform: translateY(0px);
+  transition-timing-function: ease-in-out;
+}
